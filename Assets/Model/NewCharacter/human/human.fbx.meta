@@ -1,0 +1,940 @@
+fileFormatVersion: 2
+guid: d0d7bdef06903439bb5b9c4cde5547ca
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Hairmat1
+    second: {fileID: 2100000, guid: b66ed82af0df0442e9848c4cce533a51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textures_Tshirt
+    second: {fileID: 2100000, guid: 647bd23f029474f439c97d112fdcb9f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textures_humanbody
+    second: {fileID: 2100000, guid: 1155c10bc3ab7415ebefb6d9358c1c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textures_test_Ch01_body
+    second: {fileID: 2100000, guid: d3373e77a899249809e8ff3122392765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: textures_test_Ch01_hair
+    second: {fileID: 2100000, guid: 8f63c76961ec94c8bbc1bca663a4b385, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: textures:test:mixamorig12:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: textures:test:mixamorig12:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: human(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: human(Clone)
+      position: {x: -0, y: -1.8510385, z: -0.023914568}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.46212545, y: 0.46212545, z: 0.50038564}
+    - name: textures:test:Ch01_eyeballLeft
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_eyeballRight
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Eyelashes1
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.00014933245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_face
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Lefthand
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Leftleg
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Pants1
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.00014933245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Righthand
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Rightleg
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.000094209274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Shirt1
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.00014933245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:Ch01_Sneakers1
+      parentName: human(Clone)
+      position: {x: -0, y: 0, z: 0.00014933245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:Hips
+      parentName: human(Clone)
+      position: {x: -0.000066020155, y: 0.9952251, z: 0.0027417433}
+      rotation: {x: 0.000001330173, y: -0.000018236718, z: 0.00057647086, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:LeftUpLeg
+      parentName: textures:test:mixamorig12:Hips
+      position: {x: -0.098160215, y: -0.0559243, z: -0.0031067634}
+      rotation: {x: 0.0021993932, y: -0.014491999, z: 0.9998925, w: 0.00043994252}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: textures:test:mixamorig12:LeftLeg
+      parentName: textures:test:mixamorig12:LeftUpLeg
+      position: {x: -2.9677097e-10, y: 0.42845702, z: 0.0000000015566517}
+      rotation: {x: -0.0029876637, y: 0.000008458088, z: -0.00020387609, w: 0.9999955}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000001}
+    - name: textures:test:mixamorig12:LeftFoot
+      parentName: textures:test:mixamorig12:LeftLeg
+      position: {x: 6.60919e-10, y: 0.3938408, z: -5.236848e-10}
+      rotation: {x: 0.4953322, y: 0.030933833, z: -0.0545323, w: 0.8664383}
+      scale: {x: 1.0000011, y: 1.0000008, z: 0.99999964}
+    - name: textures:test:mixamorig12:LeftToeBase
+      parentName: textures:test:mixamorig12:LeftFoot
+      position: {x: 3.9167347e-10, y: 0.19011593, z: -0.0000000039287062}
+      rotation: {x: 0.2939419, y: 0.08021379, z: -0.024763655, w: 0.9521296}
+      scale: {x: 1.0000018, y: 1.0000008, z: 1.0000006}
+    - name: textures:test:mixamorig12:LeftToe_End
+      parentName: textures:test:mixamorig12:LeftToeBase
+      position: {x: 1.8094361e-11, y: 0.0784396, z: -2.0653047e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: textures:test:mixamorig12:RightUpLeg
+      parentName: textures:test:mixamorig12:Hips
+      position: {x: 0.098160215, y: -0.0559243, z: -0.003559811}
+      rotation: {x: -0.0019791755, y: 0.0062008025, z: 0.9999786, w: 0.00066595204}
+      scale: {x: 0.9999995, y: 0.9999995, z: 1}
+    - name: textures:test:mixamorig12:RightLeg
+      parentName: textures:test:mixamorig12:RightUpLeg
+      position: {x: 1.4620073e-10, y: 0.4282941, z: -1.1409008e-10}
+      rotation: {x: -0.04553397, y: 0.000017793835, z: 0.000031995674, w: 0.9989628}
+      scale: {x: 0.99999887, y: 0.99999857, z: 0.9999996}
+    - name: textures:test:mixamorig12:RightFoot
+      parentName: textures:test:mixamorig12:RightLeg
+      position: {x: -5.481713e-10, y: 0.39513722, z: 4.597605e-10}
+      rotation: {x: 0.5297769, y: -0.026183316, z: 0.05331272, w: 0.84605473}
+      scale: {x: 1.0000006, y: 1.0000014, z: 1.0000005}
+    - name: textures:test:mixamorig12:RightToeBase
+      parentName: textures:test:mixamorig12:RightFoot
+      position: {x: -0.000000001179555, y: 0.20187956, z: -0.0000000017984139}
+      rotation: {x: 0.2770798, y: -0.09572789, z: 0.02775472, w: 0.9556635}
+      scale: {x: 1.0000005, y: 0.99999887, z: 1.0000013}
+    - name: textures:test:mixamorig12:RightToe_End
+      parentName: textures:test:mixamorig12:RightToeBase
+      position: {x: 1.4516897e-10, y: 0.07753454, z: -5.1183e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: textures:test:mixamorig12:Spine
+      parentName: textures:test:mixamorig12:Hips
+      position: {x: -0, y: 0.10052383, z: -0.011051281}
+      rotation: {x: -0.054722544, y: 0.00004975433, z: -0.00057460926, w: 0.9985014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:Spine1
+      parentName: textures:test:mixamorig12:Spine
+      position: {x: -0, y: 0.117984414, z: 6.457284e-10}
+      rotation: {x: -0.000000018626451, y: -0, z: 2.0691004e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:Spine2
+      parentName: textures:test:mixamorig12:Spine1
+      position: {x: -0, y: 0.13483936, z: -3.3376293e-10}
+      rotation: {x: 0.000000011175871, y: -2.2276967e-19, z: -4.5474735e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:LeftShoulder
+      parentName: textures:test:mixamorig12:Spine2
+      position: {x: -0.07052545, y: 0.13015427, z: -0.0025617694}
+      rotation: {x: 0.55786717, y: -0.42838836, z: 0.57846165, w: 0.4130977}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: textures:test:mixamorig12:LeftArm
+      parentName: textures:test:mixamorig12:LeftShoulder
+      position: {x: -1.7116933e-10, y: 0.14673144, z: 0.0000000015394295}
+      rotation: {x: -0.14746912, y: -0.0053852503, z: -0.01753554, w: 0.98889655}
+      scale: {x: 0.9999997, y: 0.99999976, z: 0.9999995}
+    - name: textures:test:mixamorig12:LeftForeArm
+      parentName: textures:test:mixamorig12:LeftArm
+      position: {x: -5.795279e-11, y: 0.25314656, z: 4.092621e-10}
+      rotation: {x: 0.0000005215407, y: 0.0025248593, z: 0.0000003531459, w: 0.99999684}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000006}
+    - name: textures:test:mixamorig12:LeftHand
+      parentName: textures:test:mixamorig12:LeftForeArm
+      position: {x: 1.8143294e-10, y: 0.23166333, z: -9.954704e-11}
+      rotation: {x: 0.014379052, y: -0.04426272, z: 0.05167143, w: 0.99757916}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: textures:test:mixamorig12:LeftHandIndex1
+      parentName: textures:test:mixamorig12:LeftHand
+      position: {x: 0.035011366, y: 0.09864431, z: 0.0021603857}
+      rotation: {x: -0.016603779, y: 0.0010159574, z: -0.053478286, w: 0.9984305}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:LeftHandIndex2
+      parentName: textures:test:mixamorig12:LeftHandIndex1
+      position: {x: -0.00016376359, y: 0.033051465, z: -1.888381e-10}
+      rotation: {x: 0.00000022724268, y: -0.0000109957755, z: 0.0048281895, w: 0.9999884}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: textures:test:mixamorig12:LeftHandIndex3
+      parentName: textures:test:mixamorig12:LeftHandIndex2
+      position: {x: 0.00014638231, y: 0.03109861, z: 2.3362646e-13}
+      rotation: {x: 0.00000000801147, y: -0.000093243536, z: -0.0020329764, w: 0.999998}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000002}
+    - name: textures:test:mixamorig12:LeftHandIndex4
+      parentName: textures:test:mixamorig12:LeftHandIndex3
+      position: {x: 0.000017380264, y: 0.02704657, z: -1.7497796e-10}
+      rotation: {x: -0, y: -0, z: 2.3357766e-10, w: 1}
+      scale: {x: 0.99999964, y: 0.9999999, z: 0.99999964}
+    - name: textures:test:mixamorig12:LeftHandMiddle1
+      parentName: textures:test:mixamorig12:LeftHand
+      position: {x: 0.010425983, y: 0.101806924, z: -0.0034058942}
+      rotation: {x: -0.016581872, y: 0.0014416353, z: -0.052092925, w: 0.9985035}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: textures:test:mixamorig12:LeftHandMiddle2
+      parentName: textures:test:mixamorig12:LeftHandMiddle1
+      position: {x: -0.0000758005, y: 0.034971014, z: -3.6386694e-10}
+      rotation: {x: -0.00000024400654, y: 0.000040737217, z: 0.0027873844, w: 0.9999961}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: textures:test:mixamorig12:LeftHandMiddle3
+      parentName: textures:test:mixamorig12:LeftHandMiddle2
+      position: {x: 0.000110613, y: 0.0326304, z: -5.1290044e-10}
+      rotation: {x: 0.00000024109207, y: -0.000060091734, z: -0.0023026487, w: 0.9999974}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: textures:test:mixamorig12:LeftHandMiddle4
+      parentName: textures:test:mixamorig12:LeftHandMiddle3
+      position: {x: -0.000034812747, y: 0.029078988, z: 6.4265293e-10}
+      rotation: {x: -0, y: -0, z: 1.4487639e-11, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: textures:test:mixamorig12:LeftHandPinky1
+      parentName: textures:test:mixamorig12:LeftHand
+      position: {x: -0.03467014, y: 0.09302754, z: 0.00041371761}
+      rotation: {x: -0.017557876, y: 0.0044005704, z: -0.006065138, w: 0.9998178}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:LeftHandPinky2
+      parentName: textures:test:mixamorig12:LeftHandPinky1
+      position: {x: -0.00005036722, y: 0.027304854, z: -7.336552e-11}
+      rotation: {x: 0.0000003036112, y: 0.000091102214, z: 0.0029065472, w: 0.99999577}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: textures:test:mixamorig12:LeftHandPinky3
+      parentName: textures:test:mixamorig12:LeftHandPinky2
+      position: {x: 0.000085391075, y: 0.021344595, z: 6.7143444e-12}
+      rotation: {x: -0.00000004734457, y: -0.000092099246, z: -0.0029502457, w: 0.99999565}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: textures:test:mixamorig12:LeftHandPinky4
+      parentName: textures:test:mixamorig12:LeftHandPinky3
+      position: {x: -0.000035023717, y: 0.018244034, z: 1.5957624e-10}
+      rotation: {x: -0, y: -0, z: -4.360399e-12, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: textures:test:mixamorig12:LeftHandRing1
+      parentName: textures:test:mixamorig12:LeftHand
+      position: {x: -0.010767207, y: 0.09905918, z: -0.002197754}
+      rotation: {x: -0.016353553, y: 0.005889523, z: -0.050898973, w: 0.99855256}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: textures:test:mixamorig12:LeftHandRing2
+      parentName: textures:test:mixamorig12:LeftHandRing1
+      position: {x: 0.000011068347, y: 0.030122617, z: -7.930396e-11}
+      rotation: {x: 0.000000072643154, y: 0.00003584148, z: 0.0008349503, w: 0.9999997}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    - name: textures:test:mixamorig12:LeftHandRing3
+      parentName: textures:test:mixamorig12:LeftHandRing2
+      position: {x: 0.000059199163, y: 0.02898948, z: 4.3223736e-12}
+      rotation: {x: 0.00000036612337, y: 0.000034895827, z: -0.002438302, w: 0.9999971}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: textures:test:mixamorig12:LeftHandRing4
+      parentName: textures:test:mixamorig12:LeftHandRing3
+      position: {x: -0.0000702673, y: 0.02463312, z: -7.38973e-11}
+      rotation: {x: -0, y: -0, z: 2.200544e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:LeftHandThumb1
+      parentName: textures:test:mixamorig12:LeftHand
+      position: {x: 0.03017669, y: 0.032125548, z: 0.014748561}
+      rotation: {x: 0.068700746, y: 0.00040667504, z: -0.3057, w: 0.949646}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: textures:test:mixamorig12:LeftHandThumb2
+      parentName: textures:test:mixamorig12:LeftHandThumb1
+      position: {x: 0.006909205, y: 0.036534835, z: 0.0000000014530374}
+      rotation: {x: 0.00020858643, y: 0.002705246, z: -0.10968249, w: 0.993963}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: textures:test:mixamorig12:LeftHandThumb3
+      parentName: textures:test:mixamorig12:LeftHandThumb2
+      position: {x: -0.001083909, y: 0.03292738, z: -0.0000000011894502}
+      rotation: {x: -0.0006681641, y: 0.0052206754, z: -0.09421392, w: 0.99553806}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:LeftHandThumb4
+      parentName: textures:test:mixamorig12:LeftHandThumb3
+      position: {x: -0.0058252984, y: 0.025852373, z: 4.405888e-10}
+      rotation: {x: -5.8207647e-11, y: 4.6566118e-10, z: 0.0000000013972109, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: textures:test:mixamorig12:Neck
+      parentName: textures:test:mixamorig12:Spine2
+      position: {x: -0, y: 0.1516943, z: 0.000000008226084}
+      rotation: {x: 0.054721233, y: -1.1073526e-12, z: -4.521704e-11, w: 0.99850166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:Head
+      parentName: textures:test:mixamorig12:Neck
+      position: {x: -0, y: 0.07383926, z: 0.028498584}
+      rotation: {x: -0, y: -0, z: -1.6601846e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:HeadTop_End
+      parentName: textures:test:mixamorig12:Head
+      position: {x: -0, y: 0.18238571, z: 0.07039256}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: textures:test:mixamorig12:RightShoulder
+      parentName: textures:test:mixamorig12:Spine2
+      position: {x: 0.07052545, y: 0.13011217, z: -0.00217893}
+      rotation: {x: -0.5595653, y: -0.42708784, z: 0.57706684, w: -0.4140973}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000006}
+    - name: textures:test:mixamorig12:RightArm
+      parentName: textures:test:mixamorig12:RightShoulder
+      position: {x: 1.8263126e-10, y: 0.14673144, z: 0.0000000015381119}
+      rotation: {x: 0.14779006, y: -0.0066212867, z: -0.014594317, w: -0.9888889}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: textures:test:mixamorig12:RightForeArm
+      parentName: textures:test:mixamorig12:RightArm
+      position: {x: -2.333765e-10, y: 0.2532352, z: -4.2377676e-10}
+      rotation: {x: 0.0000002682209, y: -0.0027262962, z: -0.0000000881264, w: 0.99999636}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000006}
+    - name: textures:test:mixamorig12:RightHand
+      parentName: textures:test:mixamorig12:RightForeArm
+      position: {x: 2.4384494e-10, y: 0.2317074, z: -5.1636534e-10}
+      rotation: {x: -0.010019881, y: -0.04415815, z: 0.05224916, w: -0.997607}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandIndex1
+      parentName: textures:test:mixamorig12:RightHand
+      position: {x: -0.036416862, y: 0.09956091, z: 0.0019379945}
+      rotation: {x: 0.0123021845, y: 0.0003346093, z: -0.05527706, w: -0.99839526}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandIndex2
+      parentName: textures:test:mixamorig12:RightHandIndex1
+      position: {x: 0.00023058233, y: 0.032779522, z: 2.311654e-10}
+      rotation: {x: 0.00000014528631, y: 0.00011178375, z: -0.005719027, w: 0.99998367}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:RightHandIndex3
+      parentName: textures:test:mixamorig12:RightHandIndex2
+      position: {x: -0.0001343906, y: 0.030515298, z: -4.873877e-10}
+      rotation: {x: 0.00000022658442, y: 0.000016051416, z: 0.00033444952, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: textures:test:mixamorig12:RightHandIndex4
+      parentName: textures:test:mixamorig12:RightHandIndex3
+      position: {x: -0.00009619189, y: 0.025791178, z: -3.3434133e-10}
+      rotation: {x: -0.000000046282985, y: -0.000000054675176, z: 0.000000083844505, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: textures:test:mixamorig12:RightHandMiddle1
+      parentName: textures:test:mixamorig12:RightHand
+      position: {x: -0.010384487, y: 0.09989252, z: -0.0024723613}
+      rotation: {x: 0.012306722, y: 0.0002557598, z: -0.05371983, w: -0.9984802}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandMiddle2
+      parentName: textures:test:mixamorig12:RightHandMiddle1
+      position: {x: 0.00013543024, y: 0.03435296, z: -5.2358473e-12}
+      rotation: {x: -0.00000018347055, y: -0.00009192209, z: -0.004957243, w: 0.9999877}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:RightHandMiddle3
+      parentName: textures:test:mixamorig12:RightHandMiddle2
+      position: {x: -0.00020762134, y: 0.03475482, z: 2.0484804e-10}
+      rotation: {x: -0.00000060541134, y: 0.00013115017, z: 0.0041949097, w: 0.99999124}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: textures:test:mixamorig12:RightHandMiddle4
+      parentName: textures:test:mixamorig12:RightHandMiddle3
+      position: {x: 0.00007219092, y: 0.029935794, z: -3.703326e-10}
+      rotation: {x: -5.68434e-14, y: -0, z: 7.939979e-11, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: textures:test:mixamorig12:RightHandPinky1
+      parentName: textures:test:mixamorig12:RightHand
+      position: {x: 0.034733232, y: 0.09218112, z: 0.0005770641}
+      rotation: {x: 0.013496001, y: 0.0036069672, z: 0.011558405, w: -0.99983567}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:RightHandPinky2
+      parentName: textures:test:mixamorig12:RightHandPinky1
+      position: {x: 0.00012739787, y: 0.027446836, z: 6.8187855e-10}
+      rotation: {x: 0.0000003734603, y: -0.000067739275, z: -0.0052550593, w: 0.99998623}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: textures:test:mixamorig12:RightHandPinky3
+      parentName: textures:test:mixamorig12:RightHandPinky2
+      position: {x: -0.00013406907, y: 0.022776248, z: 9.24025e-10}
+      rotation: {x: -0.00000019321797, y: 0.000175947, z: 0.0031254652, w: 0.9999952}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: textures:test:mixamorig12:RightHandPinky4
+      parentName: textures:test:mixamorig12:RightHandPinky3
+      position: {x: 0.00000667121, y: 0.01904086, z: 2.5196442e-10}
+      rotation: {x: -0, y: -0, z: 3.399612e-11, w: 1}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: textures:test:mixamorig12:RightHandRing1
+      parentName: textures:test:mixamorig12:RightHand
+      position: {x: 0.012068116, y: 0.1029892, z: -0.0017840177}
+      rotation: {x: 0.012127885, y: 0.003739319, z: -0.052168548, w: -0.9985577}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: textures:test:mixamorig12:RightHandRing2
+      parentName: textures:test:mixamorig12:RightHandRing1
+      position: {x: 0.000020799293, y: 0.028453384, z: 3.8890446e-10}
+      rotation: {x: 0.0000003902241, y: -0.0001404581, z: -0.0030186852, w: 0.9999955}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandRing3
+      parentName: textures:test:mixamorig12:RightHandRing2
+      position: {x: -0.00014911639, y: 0.028114736, z: -3.897469e-10}
+      rotation: {x: -0.0000002754996, y: -0.000008199014, z: 0.005374801, w: 0.99998564}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandRing4
+      parentName: textures:test:mixamorig12:RightHandRing3
+      position: {x: 0.00012831714, y: 0.023484929, z: 1.4860375e-10}
+      rotation: {x: -0, y: -0, z: -4.6792e-10, w: 1}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000005}
+    - name: textures:test:mixamorig12:RightHandThumb1
+      parentName: textures:test:mixamorig12:RightHand
+      position: {x: -0.029698724, y: 0.031935215, z: 0.013654055}
+      rotation: {x: -0.069729544, y: -0.0019737147, z: -0.31434128, w: -0.94674367}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandThumb2
+      parentName: textures:test:mixamorig12:RightHandThumb1
+      position: {x: -0.0062466864, y: 0.03602076, z: 3.345201e-10}
+      rotation: {x: 0.0002929419, y: -0.0038294639, z: 0.095202215, w: 0.9954506}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: textures:test:mixamorig12:RightHandThumb3
+      parentName: textures:test:mixamorig12:RightHandThumb2
+      position: {x: 0.000638159, y: 0.033617206, z: 1.5182934e-10}
+      rotation: {x: -0.00054154, y: -0.0047030672, z: 0.095511496, w: 0.9954171}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: textures:test:mixamorig12:RightHandThumb4
+      parentName: textures:test:mixamorig12:RightHandThumb3
+      position: {x: 0.0056085316, y: 0.026278399, z: -3.8697578e-10}
+      rotation: {x: -0.0000000320142, y: -0.000000009313221, z: 0.0000000011921196, w: 1}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
